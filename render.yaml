@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: website-php-app          # 👈 Tên hiển thị trên Render (tùy bạn)
+    env: docker
+    plan: free
+    repo: https://github.com/nhocti2106/website  # 👈 repo của bạn
+    branch: main
+    dockerfilePath: Dockerfile
